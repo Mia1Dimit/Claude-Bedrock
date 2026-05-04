@@ -1,17 +1,18 @@
 [
   {
-    "task": "Parse an AWS CloudFormation template and extract all the resource types",
-    "format": "python",
-    "solution_criteria": "The solution should take a CloudFormation template as input and return a list of all the unique resource types used in the template."
-  },
-  {
-    "task": "Generate a JSON object that represents an AWS IAM policy with permissions to list all S3 buckets and describe the contents of a specific bucket",
-    "format": "json",
-    "solution_criteria": "The solution should generate a valid AWS IAM policy JSON object with the specified permissions."
-  },
-  {
-    "task": "Write a regular expression to validate an AWS Lambda function name",
-    "format": "regex",
-    "solution_criteria": "The regular expression should validate that the input string is a valid AWS Lambda function name, which can contain only letters, numbers, hyphens, and underscores, and must be between 1 and 64 characters long."
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "75 kg",
+      "goal": "Marathon training - maximize carbohydrate intake with strategic timing around 20km training run scheduled for 10:00 AM",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan includes pre-workout (within 2 hours of 10:00 AM), during-workout (if run exceeds 90 minutes), and post-workout nutrition (within 30 minutes after run)",
+      "Carbohydrate content is elevated and appropriately distributed across meals, with emphasis on easily digestible carbs around training window",
+      "All meals are vegetarian and nut-free",
+      "Plan is presented as a single day schedule with specific meal times and portion sizes"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a marathon runner requiring high carbohydrate intake and specific timing around training, including pre-workout, during-workout, and post-workout nutrition needs"
   }
 ]
