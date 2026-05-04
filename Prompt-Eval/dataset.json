@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Parse an AWS CloudFormation template and extract all the resource types",
+    "format": "python",
+    "solution_criteria": "The solution should take a CloudFormation template as input and return a list of all the unique resource types used in the template."
+  },
+  {
+    "task": "Generate a JSON object that represents an AWS IAM policy with permissions to list all S3 buckets and describe the contents of a specific bucket",
+    "format": "json",
+    "solution_criteria": "The solution should generate a valid AWS IAM policy JSON object with the specified permissions."
+  },
+  {
+    "task": "Write a regular expression to validate an AWS Lambda function name",
+    "format": "regex",
+    "solution_criteria": "The regular expression should validate that the input string is a valid AWS Lambda function name, which can contain only letters, numbers, hyphens, and underscores, and must be between 1 and 64 characters long."
+  }
+]
