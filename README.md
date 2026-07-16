@@ -2,18 +2,17 @@
 
 This repository contains a set of Jupyter notebooks demonstrating how to interact with Amazon Bedrock's Claude models using the `boto3` Python SDK. Each notebook explores a different aspect of the API, including basic requests, system messages, streaming, and output control.
 
-
 ## Contents
 
-- **001_Api_Requests.ipynb / 001_Api_Requests_complete.ipynb**: Basic API requests to Claude via Bedrock.
-- **002_System_Messages.ipynb / 002_System_Messages_complete.ipynb**: Using system messages to control model behavior.
-- **003_Streaming.ipynb / 003_Streaming_complete.ipynb**: Handling streaming responses from the API.
-- **004_Controlling_Output.ipynb / 004_Controlling_Output_complete.ipynb**: Techniques for controlling and formatting model output.
+- **001_Api_Requests.ipynb / 001_Api_Requests_final.ipynb**: Basic API requests to Claude via Bedrock.
+- **002_System_Messages.ipynb / 002_System_Messages_final.ipynb**: Using system messages to control model behavior.
+- **003_Streaming.ipynb / 003_Streaming_final.ipynb**: Handling streaming responses from the API.
+- **004_Controlling_Output.ipynb / 004_Controlling_Output_final.ipynb**: Techniques for controlling and formatting model output.
 - **Prompt-Eval/002_prompting.ipynb**: Prompting strategies and exercises.
 - **Prompt-Eval/003_exercise.ipynb**: Additional exercises for prompt evaluation.
-- **Tools/001_tools.ipynb / Tools/002_tools_complete.ipynb**: Notebooks demonstrating and exercising Claude tool use.
+- **Tools/001_tools.ipynb / Tools/002_tools_final.ipynb**: Notebooks demonstrating and exercising Claude tool use.
 
-Each pair of files includes an exercise notebook and a completed solution where applicable.
+Each pair of files includes an initial notebook and a final solution where applicable.
 
 ## Usage
 
